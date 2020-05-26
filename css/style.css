@@ -77,7 +77,7 @@ li {
 	transition: 1s;
 
 }
-.work:active ~ .submenu1 {
+.work:focus .submenu1 {
 	display: block;
 	transition: 1s;
 }
