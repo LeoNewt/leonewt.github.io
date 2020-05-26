@@ -139,3 +139,13 @@ color:#fff; }
 .btn-primary {background-color: transparent !important; border-color:transparent !important;}
 
 .info {text-align: center; width: 100%; margin-top: 50px;}
+
+@media (max-width: 576px) { 
+.submenu1 , .submenu2 {
+	display: block;
+}
+.work {
+	margin-top: -250px;
+}
+li {padding: 0;}
+}
