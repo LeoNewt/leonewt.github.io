@@ -1,0 +1,69 @@
+body {
+font-family: 'DM Mono', monospace;
+}
+.main_area {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(/img/bg-1.jpg);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+}
+.menu_p {
+	color: #fff;
+	font-family: 'DM Mono', monospace;
+	font-size: 18px;
+	padding-left: 0px;
+}
+.menu {
+	padding-top: 350px;
+    text-align: center;
+}
+li {
+	color: #fff;
+    list-style: none;
+    text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+.submenu1 {
+	display: none;
+}
+.work {
+	cursor: pointer;
+}
+.work:hover .submenu1 {
+	display: block;
+	transition: 1s;
+}
+.contact:hover .submenu2 {
+	display: block;
+	transition: 1s;
+}
+.submenu2 {
+	display: none;
+	position:absolute;
+	bottom:100%;
+	width: 100%;
+    margin-left: -15px;
+}
+.photo1 {
+	width:100%;
+}
+.home, .home:hover {
+	display:block;
+text-align:center;
+margin:0 auto;
+text-decoration:none;
+color:#000; }
+
+.gallery {
+padding-top:50px; }
+
+.link, .link:hover {
+	text-decoration:none;
+color:#fff; }
+.btn-primary {background-color: transparent !important; border-color:transparent !important;}
+.info {text-align: center; width: 100%; margin-top: 50px;}
